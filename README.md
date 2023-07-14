@@ -9,10 +9,15 @@ For this project I was asked to train two machine learning models to classify lo
 This project requires the following inputs, which are already included in the Jupyter Notebook code:
   
   import numpy as np
+  
   import pandas as pd
+  
   from pathlib import Path
+  
   from sklearn.metrics import balanced_accuracy_score, confusion_matrix, classification_report
+  
   from sklearn.linear_model import LogisticRegression
+  
   from imblearn.over_sampling import RandomOverSampler
 
 Be sure that these libraries are already installed on your local machine.
